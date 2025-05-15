@@ -1,6 +1,6 @@
 <h1 align="center">DevLinks</h1>
 
-<img src=".github/Cover.jpg" />
+<img src="https://github.com/Matheus-AlvesCS/DevLinks/blob/master/.github/Cover.jpg?raw=true" />
 
 ## 📃 Descrição
 
