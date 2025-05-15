@@ -7,6 +7,9 @@
 }
 
 body {
+  min-height: 100dvh;
+  display: flex;
+  align-items: center;
   background-image: var(--bg-image);
   background-repeat: no-repeat;
   background-position: top center;
@@ -34,8 +37,9 @@ body {
 }
 
 #container {
-  width: 360px;
-  margin: 56px auto 0px;
+  width: 100%;
+  max-width: 580px;
+  margin: 0 auto;
   padding: 0 24px;
 }
 
@@ -143,4 +147,14 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+}
+
+@media screen and (min-width: 650px) {
+  :root {
+    --bg-image: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-image: url(./assets/bg-desktop-light.jpg);
+  }
 }
